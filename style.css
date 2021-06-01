@@ -1,0 +1,114 @@
+body {
+    font-family: Nunito, sans-serif;
+}
+
+header {
+    align-items: center;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+li a{
+    margin-left: 32px;
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+hr {
+    border:none;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #fffcfc;
+    box-shadow: 0 10px 20px -20px rgb(100, 100, 100);
+    margin: -50px auto 10px; 
+}
+
+main {
+    background-image: url('img/forma1.svg');
+    background-repeat: no-repeat;
+    background-size: 660px;
+    background-position-x:-160px ;
+    background-position-y: 150px ;
+}
+
+.produto {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    justify-content: space-between;
+    font-size: 23px;
+    padding-bottom: 0;
+}
+h1 {
+    padding-bottom: 0;
+    margin: 0;
+}
+.produto h1 {
+    padding-top: 20vh;
+    padding-left: 20vh;
+    padding-bottom: 0;
+}
+.copo{
+    width: 23vh;
+    padding-top: 8vh;
+    padding-right: 28vh;
+    padding-bottom: 0;
+    background-image: url('img/forma2.svg');
+    background-size: 720px;
+    background-repeat: no-repeat;
+    background-position-y: -25px;
+    background-position-x: -30px;
+}
+.redes {
+    margin-top: -180px;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 360px;
+    height: 75px;
+    color: white;
+    background-color: orange;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20vh;
+    cursor: pointer;
+}
+
+.logorede {
+    padding-bottom: 0;
+    margin-top: 30px;
+    padding-left: 20vh;
+}
+.logorede img {
+    height: 30px;
+    margin-left: 15px;   
+}
+
+footer {
+    margin-top: -100px;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer h1 {
+    font-weight: 700;
+}
+
+footer img {
+    padding-top: 10px;
+}
